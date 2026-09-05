@@ -1,0 +1,10 @@
+{
+  "precision": 0.9748,
+  "recall": 1.0,
+  "f1_score": 0.9872,
+  "roc_auc": 1.0,
+  "false_positive_count": 7,
+  "false_negative_count": 0,
+  "false_positive_cost": "$105.00",
+  "sample_count": 10000
+}
