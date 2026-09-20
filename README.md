@@ -11,7 +11,7 @@ Fraud detection systems often face a difficult problem:
 - Risk teams need actionable signals rather than only a prediction.
 SENTINEL addresses this by combining multiple intelligence layers into a unified risk decision pipeline.
 ### SENTINEL Pipeline
-
+```text
 Transaction
      ↓
 Feature Processing
@@ -140,7 +140,7 @@ The dashboard provides visibility into the operational state of:
 - Protection layer
 ---
 # 🏗️ Project Structure
-
+```text
 sentinel_ai_fraud_intelligence/
 │
 ├── app.py
@@ -263,7 +263,7 @@ tests/
 # 💻 Installation & Setup
 ## 1. Clone the Repository
 
-bash:
+```bash
   git clone https://github.com/shaikshabeer26/sentinel_ai_fraud_intelligence.git
 
 Move into the project directory:
@@ -391,7 +391,8 @@ A lower threshold can identify more suspicious transactions but may also increas
 A higher threshold can reduce unnecessary intervention but may allow more fraudulent transactions to pass.
 ### Solution
 SENTINEL performs threshold analysis and uses a validated operating point of:
-    45%
+```text
+ 45%
 The threshold can be adjusted as the system evolves.
 3. Combining Multiple Intelligence Sources
 A machine-learning probability alone does not provide enough context for an analyst.
@@ -527,7 +528,7 @@ The SENTINEL architecture can be extended with additional capabilities.
 ---
 # 🏆 Project Highlights
 SENTINEL demonstrates a layered approach to transaction fraud intelligence.
-
+```text
   Machine Learning
          +
   Behavioral Analysis
